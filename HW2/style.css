@@ -252,6 +252,7 @@ body {
 }
 
 .inner-item__icon.align-self {
+  display: flex;
   align-self: center;
 }
 
