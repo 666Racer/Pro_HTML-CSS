@@ -717,11 +717,9 @@ body {
 .product-info__button:hover {
   background-color: #f16d7f;
   color: white;
-  transition: filter 0.3s ease;
 }
-.product-info__button:hover.logo {
-  filter: brightness(0);
-  transition: filter 0.3s ease;
+.product-info__button:hover .product-info__button__logo {
+  filter: brightness(0) invert(1);
 }
 .product-info__button img {
   margin-right: 15px;

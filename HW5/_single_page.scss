@@ -100,11 +100,11 @@
         &:hover {
             background-color: $colorSelectSite;
             color: white;
-            transition: filter 0.3s ease;
+            // transition: filter 0.3s ease;
         }
-        &:hover.logo {
-            filter: brightness(0);
-            transition: filter 0.3s ease;
+        &:hover .product-info__button__logo {
+            filter: brightness(0) invert(1);
+            // transition: filter 0.3s ease;
         }
         & img {
             margin-right: 15px;
